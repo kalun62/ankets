@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	overflow: hidden;
+}
+.loader{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.loader img{
+	width: 100%;
+}
