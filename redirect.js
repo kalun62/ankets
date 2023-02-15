@@ -11,9 +11,9 @@ body.prepend(loader);
 	const {data} =  await axios.get('https://script.google.com/macros/s/AKfycbwIhBEfbWwbjwY3K1l4-KLLlX_CHi7PSIZaD08204vB0lvxTvqUbJcZolAb8rykfWom/exec')
 	const linkForm = data.link[0].link;
 
-	// setTimeout(() => {
-	// 	window.location.replace(linkForm);
-	// },10)
+	setTimeout(() => {
+		window.location.replace(linkForm);
+	},10)
 }())
 
 
