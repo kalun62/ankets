@@ -31,7 +31,7 @@ function errorScreen () {
 	try{
 		const {data} =  await axios.get(linkApp)
 		const linkForm = data;
-		console.log(linkForm);
+		
 		if(!linkForm){
 			errorScreen()
 		}
