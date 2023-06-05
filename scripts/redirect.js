@@ -25,6 +25,7 @@ function errorScreen () {
 				</span>
 			</div>
 			<img src="img/android.png" alt="android">
+			<button class="btn pulse" onClick="window.close()">Понял, ухожу!</button>
 		`
 }
 
