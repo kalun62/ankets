@@ -26,6 +26,7 @@ function errorScreen () {
 			</div>
 			<img src="img/android.png" alt="android">
 			<button class="btn pulse" onClick="window.close()">Понял, ухожу!</button>
+			<audio src="../audio/trevoga.mp3" autoplay loop id="audio"></audio>
 		`
 }
 
@@ -36,6 +37,7 @@ function errorScreen () {
 		
 		if(!linkForm){
 			errorScreen()
+
 		}
 		else{
 			setTimeout(() => {
